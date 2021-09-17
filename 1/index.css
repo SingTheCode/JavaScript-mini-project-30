@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("asset/back.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.music {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70em;
+  height: 5em;
+}
+.music > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 4px solid black;
+}
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4em;
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+}
+.instrument {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5em;
+  font-size: small;
+  font-weight: 700;
+  color: rgb(214, 230, 4);
+}
+.pressed {
+  box-shadow: 0 0 10px #ffc600;
+}
