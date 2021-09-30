@@ -38,6 +38,7 @@ body {
   width: 25%;
   height: 6px;
   background: black;
+  /* 돌아가는 구심점 */
   transform-origin: 100%;
   transition: all 0.05s;
   transition-timing-function: cubic-bezier(0, 2.54, 0.58, 1);
